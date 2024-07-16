@@ -13,17 +13,17 @@ body {
     gap: 10px;
     background: repeating-linear-gradient(
         45deg,
-        #2c2c2c,
-        #2c2c2c 10px,
-        #3c3c3c 10px,
-        #3c3c3c 20px
+        red,
+        blue 10px,
+        red 10px,
+        blue 20px
     );
     padding: 20px;
     border-radius: 10px;
 }
 
 .item {
-    background-color: #e91e63;
+    background-color: #4a0368;
     color: white;
     font-size: 24px;
     display: flex;
