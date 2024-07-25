@@ -31,3 +31,41 @@ body {
     font-size: 15px;
 }
 
+.login-container input {
+    width: calc(100% - 20px); /* ボタンに合わせて幅を調整 */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056B3;
+}
+
+.login-container p {
+    margin-top: 15PX;
+    font-size: 14PX;
+}
+
+.login-container a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
