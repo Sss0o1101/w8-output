@@ -58,11 +58,12 @@ body {
 
 .login-container p {
     margin-top: 15PX;
-    font-size: 14PX;
+    font-size: 15PX;
+    color: #bb3477;
 }
 
 .login-container a {
-    color: #007BFF;
+    color: #754cd5;
     text-decoration: none;
 }
 
